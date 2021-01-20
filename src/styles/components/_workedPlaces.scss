@@ -1,0 +1,48 @@
+.worked-main{
+  margin-bottom: 180px;
+}
+
+.worked-main__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 100%;
+
+    & img {
+        padding-right: 50px;
+        margin-left: 50px;
+        width: 200px;
+        filter: grayscale(100%);
+    }
+  }
+  
+  .adobe {
+    content:url(../../assets/img/adobe.png);
+  }
+  .andalucia {
+    content:url(../../assets/img/andalucia.png);
+  }
+  .catalunya {
+    content:url(../../assets/img/catalunya.png);
+  }
+  .jexplore {
+    content:url(../../assets/img/jexplore.png);
+  }
+  .indra {
+    content:url(../../assets/img/indra.png);
+  }
+  .fiverr {
+    content:url(../../assets/img/fiverr.png);
+  }
+  .upwork {
+    content:url(../../assets/img/upwork.png);
+  }
+  .stackoverflow {
+    content:url(../../assets/img/stackoverflow.png);
+  }
+  .siteground {
+    content:url(../../assets/img/siteground.png);
+  }
+
+  
