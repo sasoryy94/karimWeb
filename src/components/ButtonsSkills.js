@@ -12,6 +12,7 @@ export const ButtonsSkills = () => {
             <CustomButton text="Material UI" background="#6E90A8" > </CustomButton>
             <CustomButton text="Tailwind CSS" background="#00369B" > </CustomButton>
             <CustomButton text="Photoshop" background="#3288FD" > </CustomButton>
+            <CustomButton text="TypeScript" background="#D94343" > </CustomButton>
 
             </div>
             <div className="LandingPage-buttons center">

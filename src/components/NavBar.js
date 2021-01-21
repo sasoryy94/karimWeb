@@ -25,7 +25,6 @@ export const NavBar = () => {
                 <button className="pure-button fuller-button white">Lets talk</button>
             </NavLink>
 
-
         </div>
 
     )

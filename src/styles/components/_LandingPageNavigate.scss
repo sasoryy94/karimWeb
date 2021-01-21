@@ -1,0 +1,95 @@
+.Navigate-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-around;
+}
+
+.Navigate-container__child{
+    width:350px;
+    height: 300px;
+    background: red;
+    margin-right: 1rem;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.05);     }
+
+    & h3{
+        color: #FFF;
+        font-weight: 600;
+        font-size: 1.8rem;
+        margin-left: 20px;
+        position: absolute;
+        bottom: 20px;
+    }
+
+}
+
+.Navigate-container__child-imgWho {
+    content:url(../../assets/img/who.png);
+    width: 300px;
+    position: absolute;
+    transform: rotate(-20deg);
+    right: 20px;
+    bottom: 40px;
+    &:hover{
+
+        animation: whoMove 2s 1;
+    }
+}
+
+@keyframes whoMove {
+    0% {  transform: rotate(-20deg);  }
+    100%{    transform: rotate(0deg); }
+}
+
+
+.Navigate-container__child-imgWork {
+    content:url(../../assets/img/work.png);
+    width: 280px;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+
+    &:hover{
+        animation: workMove 2s 1;
+    }
+}
+
+@keyframes workMove {
+    0% {    transform: scale(1);  right: 0; }
+    100%{      transform: scale(1.10);  right: 20px; bottom:60px;}
+}
+
+.Navigate-container__child-imgContact {
+    content:url(../../assets/img/contact.png);
+    width: 200px;
+    position: absolute;
+    transform: rotate(20deg);
+    right: 20px;
+    bottom: 40px;
+
+    &:hover{
+
+        animation: contactMove 2s 1;
+    }
+}
+
+@keyframes contactMove {
+    0% {  transform: rotate(20deg);  }
+    100%{    transform: rotate(0deg); }
+}
+
+.container1{
+    background: #3FB9CA;
+}
+.container2{
+    
+    background: #C02A51;
+}
+.container3{
+    background: #00695C;
+
+}

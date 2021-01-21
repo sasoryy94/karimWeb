@@ -6,13 +6,14 @@
   box-sizing: border-box;
   padding:0;
   margin: 0;
+  line-height: 1.5rem;
+  font-family: "Rubik", Arial, sans-serif;
   &::before, &::after {
     box-sizing: inherit;
   }
 }
 
 body{
-  font-family: "Rubik", Arial, sans-serif;
   background: #F7F9FA;
   }
 
