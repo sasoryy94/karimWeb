@@ -20,6 +20,7 @@ export const ButtonsSkills = () => {
             <CustomButton text="JavaScript" background="#6EAD47" > </CustomButton>
             <CustomButton text="jQuery" background="#232B33" > </CustomButton>
             <CustomButton text="ReactJS" background="#28956D" > </CustomButton>
+            <CustomButton text="Styled components" background="#232B33" > </CustomButton>
             <CustomButton text="Angular +4" background="#5A3BC3" > </CustomButton>
 
             </div>

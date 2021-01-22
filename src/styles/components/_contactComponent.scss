@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.contact-container{
+
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    color:#3F3F71;
+
+    & h1 , h4{
+        color: darken($color: #3F3F71, $amount: 30%);
+        font-size: 3rem;
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    & h4 {
+        font-size: 1.3rem;
+    }
+
+
+}
+
+.contact-improve{
+    display: flex;
+    align-self: center;
+
+    & h5{
+        padding: 30px;
+    }
+}
+
+.contact-hr{
+    width: 50%;
+    border: none;
+    height: 0.1px;
+    background-color:darken($color: #F9FAFB, $amount: 20%);
+}
+
+.p-email{
+    font-size: 1.25rem;
+    margin:2rem 0;
+}
+
+.contact-mail {
+    color:#1b71da;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}

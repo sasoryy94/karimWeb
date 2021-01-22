@@ -33,7 +33,7 @@ export const MainRouter = () => {
                 <LandingPage />
               </Route>
             </Switch>
-            <Footer></Footer>
+           
 
         </Router>
       );

@@ -6,7 +6,7 @@
   box-sizing: border-box;
   padding:0;
   margin: 0;
-  line-height: 1.5rem;
+  line-height: 1.5;
   font-family: "Rubik", Arial, sans-serif;
   &::before, &::after {
     box-sizing: inherit;
@@ -15,9 +15,10 @@
 
 body{
   background: #F7F9FA;
+  overflow-x: hidden;
   }
 
-.LandingPage{
+.LandingPage , .about{
   margin: 0 auto;
   width: 1200px;
   display: flex;
@@ -25,12 +26,26 @@ body{
   position: relative;
 }
 
+
 ul {
     list-style-type: none;
   }
 
 a{
     text-decoration: none;
+}
+
+hr {
+  border: .2px solid #B3CA81;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+a{
+  text-decoration: none; /* no underline */
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
 }
 
 .center{

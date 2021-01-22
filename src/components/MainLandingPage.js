@@ -9,8 +9,7 @@ export const MainLandingPage = () => {
                 <p>I'm focused on building products with JavaScript, specifically React.</p>
                 <p>#JavaScript #HTML #CSS #React</p>
             </div>
-            <img className="LandingPage-image" alt="karim"></img>
-            
+            <div className="LandingPage-image"></div>
         </div>
     )
 }

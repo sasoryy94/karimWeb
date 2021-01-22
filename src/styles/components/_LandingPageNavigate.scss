@@ -17,7 +17,6 @@
         transform: scale(1.05);     }
 
     & h3{
-        color: #FFF;
         font-weight: 600;
         font-size: 1.8rem;
         margin-left: 20px;
@@ -48,10 +47,10 @@
 
 .Navigate-container__child-imgWork {
     content:url(../../assets/img/work.png);
-    width: 280px;
+    width: 250px;
     position: absolute;
     right: 0;
-    bottom: 40px;
+    bottom: 50px;
 
     &:hover{
         animation: workMove 2s 1;
@@ -84,12 +83,18 @@
 
 .container1{
     background: #3FB9CA;
+    background-image: linear-gradient(to top right, #42CBDD, lighten($color:#3AA3B3, $amount: 15%));
+    color: lighten($color: #3FB9CA, $amount: 45%)
 }
 .container2{
     
     background: #C02A51;
+    background-image: linear-gradient(to top right, #BB2A51, lighten($color:#D72A56, $amount: 15%));
+    color: lighten($color: #C02A51, $amount: 50%)
 }
 .container3{
     background: #00695C;
+    background-image: linear-gradient(to top right, #00695C, lighten($color:#00695C, $amount: 15%));
+    color: lighten($color: #00695C, $amount: 70%)
 
 }
