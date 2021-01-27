@@ -18,7 +18,7 @@ export const NavBar = () => {
 
             <NavLink exact={true} activeClassName="active" to="/about" ><Button  style={{fontWeight: "600", color:"#5F6773"}} size="large">About</Button>
             </NavLink >
-            <NavLink exact={true} activeClassName="active" to="/projects"><Button size="large" style={{fontWeight: "600", color:"#5F6773"}}> Projects</Button>
+            <NavLink exact={true} activeClassName="active" to="/"><Button disabled="true" size="large" style={{fontWeight: "600", color:"#5F6773"}}> Projects</Button>
             </NavLink >
             </div>
             <NavLink exact={true} to="/contact">
