@@ -1,5 +1,5 @@
 import React from 'react'
-import { __DATA__ } from '../util/dataLanguages';
+import { __DATA__ } from '../../util/dataLanguages';
 import {
   MainContainer,
   Container,
@@ -7,7 +7,7 @@ import {
   Number,
   BlackLine,
   MakeBar
-} from "../util/stylesLanguages";
+} from "../../util/stylesLanguages";
 
 
 export const AboutLanguages = () => {

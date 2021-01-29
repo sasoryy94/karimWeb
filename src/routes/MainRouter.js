@@ -4,9 +4,9 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { Footer } from "../components/Footer";
 
 import { NavBar } from '../components/NavBar'
+import { Currency } from "../components/projects/currency/Currency";
 import { About } from "../pages/About";
 import { Contact } from '../pages/Contact';
 import { LandingPage } from '../pages/LandingPage';
@@ -23,6 +23,7 @@ export const MainRouter = () => {
               <Route path="/projects">
                 <Projects />
               </Route>
+              <Route path='/project/currency' component={Currency}/>
               <Route path="/about">
                 <About />
               </Route>

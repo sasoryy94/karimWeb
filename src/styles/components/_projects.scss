@@ -1,0 +1,37 @@
+.projects-main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.projects-main__wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+
+    & div {
+        flex: 1 0 40%; /* explanation below */
+        margin: 5px;
+    }
+      
+
+}
+
+.projects-h1 , .title-project__currency {
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #08080f;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    
+}
+
+.currency-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

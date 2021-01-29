@@ -10,7 +10,7 @@ export const LandingPageNavigate = () => {
                     <img className="Navigate-container__child-imgWho " alt="work" ></img>
                 </div> 
             </NavLink>
-            <NavLink exact={true} activeClassName="active" to="/" > 
+            <NavLink exact={true} activeClassName="active" to="/projects" > 
                 <div className="Navigate-container__child container2">
                     <h3>My work</h3>
                     <img className="Navigate-container__child-imgWork " alt="work" ></img>

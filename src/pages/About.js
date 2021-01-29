@@ -1,7 +1,7 @@
 import React from 'react'
-import { AboutComponent } from '../components/AboutComponent'
-import { AboutExperience } from '../components/AboutExperience'
-import { AboutLanguages } from '../components/AboutLanguages'
+import { AboutComponent } from '../components/about/AboutComponent'
+import { AboutExperience } from '../components/about/AboutExperience'
+import { AboutLanguages } from '../components/about/AboutLanguages'
 
 export const About = () => {
     return (

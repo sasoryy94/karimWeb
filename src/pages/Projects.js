@@ -1,9 +1,10 @@
 import React from 'react'
+import { ProjectsWrapper } from '../components/projects/ProjectsWrapper';
 
 export const Projects = () => {
     return (
-        <div>
-            <h1>projects</h1>
-        </div>
+        
+       <ProjectsWrapper></ProjectsWrapper>
+       
     )
 }
